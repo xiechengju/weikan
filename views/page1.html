@@ -1,0 +1,14 @@
+
+    <ul class="pageList-cont">
+    <li ng-repeat = "x in imgs.srcs" class="pageList-list {{ x.class }}" ng-click="changeLocation(x.href)">
+            <img class="pageList-list-bg" ng-src="{{ x.bg }}">
+            <!-- <div class="pageList-list-con">
+                <div class="pageList-list-center open">
+                    <div class="pageList-list-pict">
+                        <img ng-src="{{ x.logo }}">
+                    </div>
+                </div>
+            </div> -->
+        </li>
+    <li> {{ title }}</li>
+</ul>

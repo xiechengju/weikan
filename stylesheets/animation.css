@@ -1,0 +1,386 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 5, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/*-------------------p1----------------------*/
+@keyframes mask1 {
+  from {
+    transform: scaleY(1);
+    transform-origin: 50% 100%;
+  }
+  to {
+    transform: scaleY(0);
+    transform-origin: 50% 100%;
+  }
+}
+@-webkit-keyframes mask1 {
+  from {
+    -webkit-transform: scaleY(1);
+    transform-origin: 50% 100%;
+  }
+  to {
+    -webkit-transform: scaleY(0);
+    transform-origin: 50% 100%;
+  }
+}
+/*-------------------p2----------------------*/
+@keyframes movement1 {
+  from {
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
+@-webkit-keyframes movement1 {
+  from {
+    -webkit-transform: translateX(-100px);
+    opacity: 0;
+  }
+  to {
+    -webkit-transform: translateX(0px);
+    opacity: 1;
+  }
+}
+@keyframes movement2 {
+  from {
+    transform: translateX(100px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
+@-webkit-keyframes movement1 {
+  from {
+    -webkit-transform: translateX(100px);
+    opacity: 0;
+  }
+  to {
+    -webkit-transform: translateX(0px);
+    opacity: 1;
+  }
+}
+/*-------------------p3----------------------*/
+@keyframes keywords1 {
+  from {
+    transform: translateY(30px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+@-webkit-keyframes keywords1 {
+  from {
+    -webkit-transform: translateY(30px);
+    opacity: 0;
+  }
+  to {
+    -webkit-transform: translateY(0px);
+    opacity: 1;
+  }
+}
+@keyframes keywords2 {
+  from {
+    transform: translateY(-30px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+@-webkit-keyframes keywords2 {
+  from {
+    -webkit-transform: translateY(-30px);
+    opacity: 0;
+  }
+  to {
+    -webkit-transform: translateY(0px);
+    opacity: 1;
+  }
+}
+@keyframes keyIcon1 {
+  from {
+    transform: rotateX(180deg);
+    opacity: 0;
+  }
+  to {
+    transform: rotateX(0deg);
+    opacity: 1;
+  }
+}
+@-webkit-keyframes keyIcon1 {
+  from {
+    -webkit-transform: rotateX(180deg);
+    opacity: 0;
+  }
+  to {
+    -webkit-transform: rotateX(0deg);
+    opacity: 1;
+  }
+}
+@keyframes keyLine {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes keyLine {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+/*-------------------p4----------------------*/
+/*-------------------p5----------------------*/
+@keyframes kv-pic {
+  from {
+    transform: rotateX(270deg);
+    transform-origin: 0 50%;
+    opacity: 0;
+  }
+  to {
+    transform: rotateX(0deg);
+    transform-origin: 0 50%;
+    opacity: 1;
+  }
+}
+@-webkit-keyframes kv-pic {
+  from {
+    -webkit-transform: rotateX(270deg);
+    transform-origin: 0 50%;
+    opacity: 0;
+  }
+  to {
+    -webkit-transform: rotateX(0deg);
+    transform-origin: 0 50%;
+    opacity: 1;
+  }
+}
+/*----pageExchange-------*/
+@-webkit-keyframes open {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes close {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+/*----liuxing-------*/
+@-webkit-keyframes liuxing {
+  from {
+    -webkit-transform: translateX(0) translateY(0);
+    opacity: 1;
+  }
+  to {
+    -webkit-transform: translateX(-1800px) translateY(1200px);
+    opacity: 0;
+  }
+}
+/*----cloud-------*/
+@-webkit-keyframes cloud_ {
+  from {
+    -webkit-transform: translateX(0);
+  }
+  to {
+    -webkit-transform: translateX(600px);
+  }
+}
+/*----light-------*/
+@-webkit-keyframes light {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+  0% {
+    opacity: 1;
+  }
+}
+/*----moon-------*/
+@-webkit-keyframes moon1 {
+  from {
+    transform: scale(1.2) rotateY(-58deg) rotateX(52deg) rotateZ(0deg);
+  }
+  to {
+    transform: scale(1.2) rotateY(-58deg) rotateX(52deg) rotateZ(360deg);
+  }
+}
+@-webkit-keyframes house {
+  0% {
+    transform: scale(0);
+    transform-origin: bottom center;
+  }
+  20% {
+    transform: scale(0.6);
+    transform-origin: bottom center;
+  }
+  40% {
+    transform: scale(0.4);
+    transform-origin: bottom center;
+  }
+  60% {
+    transform: scale(0.8);
+    transform-origin: bottom center;
+  }
+  80% {
+    transform: scale(1.2);
+    transform-origin: bottom center;
+  }
+  100% {
+    transform: scale(1);
+    transform-origin: bottom center;
+  }
+}
+@-webkit-keyframes yaohuang {
+  0% {
+    transform: rotateZ(0deg);
+    transform-origin: top center;
+  }
+  50% {
+    transform: rotateZ(30deg);
+    transform-origin: top center;
+  }
+  100% {
+    transform: rotateZ(0deg);
+    transform-origin: top center;
+  }
+}
+@-webkit-keyframes bianfu1 {
+  0% {
+    transform: rotateZ(-10deg) translateX(0px) translateY(0);
+    opacity: 0;
+  }
+  1% {
+    transform: rotateZ(-10deg) translateX(0px) translateY(0);
+    opacity: 1;
+  }
+  100% {
+    transform: rotateZ(-10deg) translateX(-50px) translateY(-20px);
+    opacity: 0;
+  }
+}
+@-webkit-keyframes bianfu2 {
+  0% {
+    transform: rotateZ(20deg) translateX(0) translateY(0);
+    opacity: 0;
+  }
+  1% {
+    transform: rotateZ(20deg) translateX(0) translateY(0);
+    opacity: 1;
+  }
+  100% {
+    transform: rotateZ(20deg) translateX(50px) translateY(-20px);
+    opacity: 0;
+  }
+}
+@-webkit-keyframes bianfu3 {
+  0% {
+    transform: rotateZ(30deg) translateX(0) translateY(0);
+    opacity: 0;
+  }
+  1% {
+    transform: rotateZ(30deg) translateX(0) translateY(0);
+    opacity: 1;
+  }
+  100% {
+    transform: rotateZ(30deg) translateX(50px) translateY(-70px);
+    opacity: 0;
+  }
+}
+@-webkit-keyframes yinxian {
+  0% {
+    display: block;
+    transform: translateX(-150px);
+    opacity: 0;
+  }
+  100% {
+    display: block;
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
